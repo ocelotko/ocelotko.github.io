@@ -1980,6 +1980,10 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
+.tracking-\[\.25em\] {
+  letter-spacing: .25em;
+}
+
 .text-\[\#00FFAA\] {
   --tw-text-opacity: 1;
   color: rgb(0 255 170 / var(--tw-text-opacity));
@@ -2444,6 +2448,18 @@ body {
 
 .hover\:font-bold:hover {
   font-weight: 700;
+}
+
+.hover\:tracking-\[\.25em\]:hover {
+  letter-spacing: .25em;
+}
+
+.hover\:tracking-\[\.2em\]:hover {
+  letter-spacing: .2em;
+}
+
+.hover\:tracking-\[\.1em\]:hover {
+  letter-spacing: .1em;
 }
 
 .hover\:text-white:hover {
